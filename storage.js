@@ -1,0 +1,68 @@
+let notes = [
+    {
+        name: "Shopping list",
+        created: "April 20, 2021",
+        category: "Task",
+        content: "Tomatoes, bread",
+        dates: "",
+        archived: false,
+        id: 1,
+    },
+    {
+        name: "Some quote",
+        created: "April 21, 2021",
+        category: "Random Thought",
+        content: "lorem ipsum",
+        dates: "",
+        archived: false,
+        id: 2,
+    },
+    {
+        name: "Sport",
+        created: "September 1, 2022",
+        category: "Task",
+        content: "Training",
+        dates: "",
+        archived: false,
+        id: 3,
+    },
+    {
+        name: "Playlist",
+        created: "March 4, 2022",
+        category: "Random Thought",
+        content: "songs",
+        dates: "",
+        archived: false,
+        id: 4,
+    },
+    {
+        name: "Idea",
+        created: "April 20, 2021",
+        category: "Idea",
+        content: "Idea",
+        dates: "",
+        archived: false,
+        id: 5,
+    },
+    {
+        name: "qwerty",
+        created: "April 20, 2021",
+        category: "Task",
+        content: "12345",
+        dates: "",
+        archived: false,
+        id: 6,
+    },
+    {
+        name: "Seventh",
+        created: "April 20, 2021",
+        category: "Task",
+        content: "Seventh",
+        dates: "",
+        archived: false,
+        id: 7,
+    },
+];
+
+
+export default notes;

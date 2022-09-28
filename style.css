@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.naming {
+    display: flex;
+    justify-content: center;
+}
+.controllers {
+    display: flex;
+    justify-content: center;
+}
+
+.post-creation {
+    margin: auto;
+    width: 60%;
+}
+
+input[type=text], select, textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container-head {
+    width: 80%;
+    background-color: darkgrey;
+    margin: 10px auto;
+    border: 5px solid darkgrey;
+    border-radius: 10px;
+}
+
+.table-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+.container-row {
+    width: 80%;
+    background-color: lavender;
+    margin: 10px auto;
+    border: 5px solid lavender;
+    border-radius: 10px;
+}
+.table-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}

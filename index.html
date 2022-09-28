@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Task 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="naming">
+    <h1>Notes app</h1>
+</div>
+<div class="post-creation">
+    <form class="form">
+        <label for="name">Note name</label><br>
+        <input type="text" id="name" name="name" value=""><br>
+        <label for="category">Category</label><br>
+        <select name="category" id="category">
+            <option value="Task">Task</option>
+            <option value="Thought">Random Thought</option>
+            <option value="Idea">Idea</option>
+        </select><br>
+        <label for="content">Note content</label><br>
+        <input type="text" id="content" name="content"><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<div class="table"></div>
+<div class="container-head">
+    <div class="table-header">
+        <div>Name</div>
+        <div>Created</div>
+        <div>Category</div>
+        <div>Content</div>
+        <div>Dates</div>
+        <div>
+            <button>Edit</button>
+            <button>Archive</button>
+            <button>Delete</button>
+        </div>
+    </div>
+</div>
+<div class="table-active">
+</div>
+
+
+<div class="naming">
+    <h1>Summary</h1>
+</div>
+<div class="container-head">
+    <div class="table-header">
+        <div>Note category</div>
+        <div>Active</div>
+        <div>Archived</div>
+    </div>
+</div>
+<div class="table-summary">
+</div>
+
+<div class="naming">
+    <h1>Archive</h1>
+</div>
+<div class="container-head">
+    <div class="table-header">
+        <div>Name</div>
+        <div>Created</div>
+        <div>Category</div>
+        <div>Content</div>
+        <div>Dates</div>
+        <div>
+            <button>Edit</button>
+            <button>Unarchive</button>
+            <button>Delete</button>
+        </div>
+    </div>
+</div>
+<div class="table-archive">
+</div>
+
+<script src="./app.js" type="module"></script>
+</body>
+</html>
